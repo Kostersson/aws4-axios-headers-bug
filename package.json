@@ -1,0 +1,15 @@
+{
+  "name": "aws4-axios-bug",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "run": "node index.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "aws4-axios": "3.4.0",
+    "axios": "1.6.7"
+  }
+}
