@@ -1,5 +1,11 @@
 import axios from "axios";
 import { aws4Interceptor } from "aws4-axios";
+import nock from "nock";
+
+nock.disableNetConnect();
+nock("https://example.com/foo")
+  .post("")
+  .reply(500);
 
 const interceptor = aws4Interceptor({
   options: {
